@@ -6,7 +6,7 @@ GLOBAL_VAR_INIT(normal_looc_colour, "#6699CC")
 	set desc = "Local OOC, seen only by those in view."
 	set category = "OOC"
 
-	if(GLOB.say_disabled)	//This is here to try to identify lag problems
+	if(GLOB.say_disabled)	//This is here to try to identify lag problems. a
 		to_chat(usr, "<span class='danger'>Speech is currently admin-disabled.</span>")
 		return
 
